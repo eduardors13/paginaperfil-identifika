@@ -1,0 +1,39 @@
+/* ========================================================= */
+/* >>> RESET GERAL <<<                                       */
+/* ========================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========================================================= */
+/* >>> CORPO DO TEXTO <<<                                       */
+/* ========================================================= */
+:root{
+
+  --bg-color: #11b965;
+  --bgcardperfil-color: #bfbfbf;
+  --font-family: 'Poppins', sans-serif;
+
+  --h1: 600 32px/140% var(--font-family);
+  --h2: 600 28px/140% var(--font-family);
+  --h3: 600 24px/140% var(--font-family);
+  --p: 400 18px/140% var(--font-family);
+  --destaque: 800 20px/140% var(--font-family);
+}
+
+html, body {
+  display: grid;
+  width: 100%;
+  padding: 1px;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+
+  
+}
+
+.grid-flow-col{
+  grid-auto-flow: column ;
+}
