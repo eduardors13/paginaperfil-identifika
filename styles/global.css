@@ -20,7 +20,8 @@
   --h2: 600 28px/140% var(--font-family);
   --h3: 600 24px/140% var(--font-family);
   --p: 400 18px/140% var(--font-family);
-  --destaque: 800 20px/140% var(--font-family);
+  --destaque: 600 20px/140% var(--font-family);
+  --p-bold: 600 18px/140% var(--font-family);
 }
 
 html, body {
