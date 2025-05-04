@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de perfil</title>
+  <title>Perfil - IDentifika</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- TOPO -->
   <header>
     <div class="header-container">
-      <!-- BLOCO ESQUERDA: Logo + Lupa -->
       <div class="logo-pesquisa">
         <img src="images/logo.png" alt="Logo IDentifika" class="logo-img">
         <div class="pesquisa-container">
@@ -17,81 +17,74 @@
           <input type="text" id="campoBusca" class="campo-busca" placeholder="Buscar...">
         </div>
       </div>
-
-      <!-- BLOCO CENTRAL: Botões centrais -->
       <nav class="menu-central">
         <a href="solucoes.html">Soluções</a>
         <a href="quemsomos.html">Quem Somos</a>
         <a href="contato.html">Contato</a>
       </nav>
-
-      <!-- BLOCO DIREITA: Cadastrar/Login -->
       <div class="menu-direita">
         <a href="cadastro.html">Cadastrar-se</a>
         <a href="login.html">Login</a>
       </div>
     </div>
-
+  </header>
+  
   <main>
     <div class="paginainicial container">
-      <div class="card-perfil container">
-        <img src="images/perfil.avif" alt="Foto de perfil de um homem" class="fotoperfil">
-        <h3>Seja bem vindo, <span class="destaque">Usuário</span>!</h3>
-        <div class="verificacao">
-          <div class="email">Endereço de e-mail <span class="verificado">Verificado</span></div>
-          <div class="residencia">Comprovante de residência <span class="naoverificado">Não Verificado</span></div>
-          <div class="identidade">Documento de Identidade <span class="naoverificado">Não Verificado</span></div>
+      <div class="card-perfil">
+        <img src="images/perfil.jpg" alt="Foto de perfil de um homem" class="fotoperfil">
+        <h2>Seja bem vindo, <span class="destaque">Usuário</span>!</h2>
+        <div class="email">Endereço de e-mail <span class="verificado">Verificado</span></div>
+        <div class="residencia">Comprovante de residência <span class="naoverificado">Não Verificado</span></div>
+        <div class="identidade">Documento de Identidade <span class="naoverificado">Não Verificado</span></div>
+        <button>Editar Perfil</button>
       </div>
     
-    <div class="cardservicos container">
-      <div class="verificacaorapida">
-        <img src="images/identidade.png" alt="">
-        <h2>Verificação rápida de Identidade</h2>
-        <p>Realizar uma verificação rápida de Identidade</p>
-        <button>Verificar</button>
-      </div>
-
-      <div class="solicitaceorcamento">
-        <img src="images/orcamento.png" alt="">
-        <h2>Solicite Um Orçamento</h2>
-        <p>Solicite um orçamento para nossos serviços, de acordo com sua demanda e necessidade</p>
-        <button>Solicitar orçamento</button>
-      </div>
-
-      <div class="falarespecialista">
-        <img src="images/especialista.png" alt="">
-        <h2>Fale com um Especialista</h2>
-        <p>Conversar com nossos agentes à respeito de diversos temas, como suporte, bugs, críticas e sugestões.</p>
-        <button>Falar com um Agente</button>
+      <div class="servicos">
+        <div class="verificacaorapida">
+          <img src="images/identidade.png" alt="">
+          <h2>Verificação rápida de Identidade</h2>
+          <p>Realizar uma verificação rápida de Identidade.</p>
+          <button>Verificar</button>
         </div>
-    </div>
 
-    </div>
+        <div class="soliciteorcamento">
+          <img src="images/orcamento.png" alt="">
+          <h2>Solicite Um Orçamento</h2>
+          <p>Solicite um orçamento para nossos serviços, de acordo com sua demanda e necessidade.</p>
+          <button>Solicitar orçamento</button>
+        </div>
+
+        <div class="falarespecialista">
+          <img src="images/especialista.png" alt="">
+          <h2>Fale com um Especialista</h2>
+          <p>Conversar com nossos agentes à respeito de diversos temas, como suporte, bugs, críticas e sugestões.</p>
+          <button>Falar com um Agente</button>
+        </div>
+        
+      </div>
     
+      <div class="botaosair">
+        <button class="botaosair">Sair</button>
+      </div>
+    </div>
   </main>
-
-
-
-    
-    <!-- RODAPÉ -->
+  
   <footer>
     <hr class="footer-line">
     <div class="footer-container">
       <div class="footer-start">
         <p>© 2025 IDentifika. Todos os direitos reservados.</p>
       </div>
-  
       <div class="footer-mid">
         <a href="termos.html">Termos & Condições</a><br>
         <a href="politicas.html">Política de Privacidade</a>
       </div>
-  
       <div class="siga-nos">
         <a href="#">Siga-nos</a>
         <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn" width="24"></a>
       </div>
     </div>
   </footer>
-  </header>
 </body>
 </html>
