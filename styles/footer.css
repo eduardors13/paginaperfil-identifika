@@ -1,0 +1,36 @@
+.footer-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px 40px;
+  gap: 40px; 
+}
+.footer-line {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.footer-start {
+  flex: 1; 
+  text-align: left; 
+}
+
+.footer-mid {
+  text-align: center;
+  flex: 1;
+}
+
+.siga-nos {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.siga-nos img {
+  width: 40px;
+  height: auto;
+}

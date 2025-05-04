@@ -1,0 +1,105 @@
+/* ========================================================= */
+/* >>> TOPO / HEADER / MENU <<<                              */
+/* ========================================================= */
+header {
+  background: linear-gradient(to right, #0065c6 0%, #11b965 50%, #d7faed 100%);
+  color: white;
+  padding: 20px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  flex-wrap: nowrap;
+}
+
+/* BLOCO: Logo + Lupa */
+.logo-pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.logo-img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-left: 4px;
+}
+
+.pesquisa-container {
+  position: relative;
+}
+
+.lupa-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.campo-busca {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  width: 180px;
+  font-size: 14px;
+  outline: none;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.pesquisa-container.ativa .campo-busca {
+  display: block;
+}
+
+/* BLOCO: Menu central */
+.menu-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex: 2;
+  margin: 0 auto;
+}
+
+/* BLOCO: Menu à direita */
+.menu-direita {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+/* ESTILO BOTÕES DO MENU (centro + direita) */
+.menu-central a,
+.menu-direita a {
+  background-color: white;
+  color: black;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid black;
+  transition: background-color 0.3s;
+}
+
+.menu-central a:hover,
+.menu-direita a:hover {
+  background-color: #d7faed;
+  border-color: #11b965;
+  color: #0065c6;
+}
