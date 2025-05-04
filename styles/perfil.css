@@ -25,6 +25,10 @@
     padding:5px;
   }
 
+  .destaque{
+    font: var(--h2);
+  }
+
   .verificado{
     color: green;
     font: var(--p-bold);
@@ -34,6 +38,15 @@
     color: red;
     font: var(--p-bold);
   }
+
+  .email, .residencia, .identidade{
+    font: var(--p-bold);
+  }
+
+  h2{
+    font: var(--h2);
+  }
+
 }
 
 .card-perfil img {
@@ -48,7 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font: var(--destaque);
+  font: var(--p-bold);
 }
 
 progress {
@@ -59,7 +72,7 @@ progress {
 }
 
 #progresso-texto {
-  font: var(--h3);
+  font: var(--p-bold);
   font-size: 16px;
   margin-top: 5px;
 }
